@@ -1,0 +1,44 @@
+header {
+    background-color: #ffffff;
+    padding: 1rem 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .logo img {
+    height: 60px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .menu li {
+    display: inline;
+  }
+  
+  .menu .boton {
+    background-color: #ffffff;
+    color: #1f6599;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #1f6599;
+    border-color: #1f6599;
+  }
+  
+  .menu .hamburguesa {
+    color: #1f6599;
+    font-size: 1.5rem;
+  }
+  
